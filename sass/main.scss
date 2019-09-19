@@ -1,7 +1,10 @@
 //importing global variabless -> grab _vars.scss and any other partials
 @import '_vars';
-@import 'modules/_navbar';
-@import 'modules/_footer';
+@import 'modules/navbar';
+@import 'modules/footer';
+
+//impoer the user shit
+@import 'modules/users';
 
 body { background-color: $body-bg;
         color: $heading-color;}
